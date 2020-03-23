@@ -22,10 +22,10 @@ def main():
     def jaynay():
         print ("Y / N")
         x = input()
-        if x == "n":
+        if x == "n" or "N":
             print ("programet stänger")
             exit(0)
-        elif x == "y":
+        elif x == "y" or "Y":
              main()
         else:
             jaynay()
