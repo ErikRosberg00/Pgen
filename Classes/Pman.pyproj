@@ -2,15 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-    <ProjectGuid>37a0e7c0-dd8a-4710-9a09-f188b355c2c7</ProjectGuid>
+    <ProjectGuid>1b78a0bb-dee7-405a-84d6-2310425f04ef</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Pgen.py</StartupFile>
+    <StartupFile>Pman.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Pgen</Name>
-    <RootNamespace>Pgen</RootNamespace>
+    <Name>Pman</Name>
+    <RootNamespace>Pman</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -21,7 +21,10 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Pgen.py" />
+    <Compile Include="Pgen.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="Pman.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
