@@ -19,6 +19,7 @@ def openFile():
         passwordShowcase = tk.Label(showcase, text=savedPwd, bg="white")
         passwordShowcase.pack()
 
+
 background = tk.Canvas(root, height=500, width=1000, bg="#99ccff")
 background.pack()
 
