@@ -4,7 +4,7 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>1b78a0bb-dee7-405a-84d6-2310425f04ef</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Pman.py</StartupFile>
+    <StartupFile>Classes\Pman.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
@@ -21,10 +21,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-    <Compile Include="Pgen.py">
+    <Compile Include="Classes\Pgen.py">
       <SubType>Code</SubType>
     </Compile>
-    <Compile Include="Pman.py" />
+    <Compile Include="Classes\Pman.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Classes\" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
