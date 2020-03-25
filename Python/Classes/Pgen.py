@@ -2,10 +2,8 @@ import random
 import sys
 import string
 
-
 class Pgen(object):
     """description of class"""
-
 
 def Pgen():
     def RndPwd():

@@ -21,6 +21,9 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="Classes\Pcrypt.py">
+      <SubType>Code</SubType>
+    </Compile>
     <Compile Include="Classes\Pgen.py">
       <SubType>Code</SubType>
     </Compile>
