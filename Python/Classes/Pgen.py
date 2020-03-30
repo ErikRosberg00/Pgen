@@ -5,7 +5,7 @@ import string
 class Pgen(object):
     """description of class"""
 
-def Pgen():
+def Main():
     def RndPwd():
         while True:
             Length = input("Hur många karaktärer ska ditt lösenord ha ")
@@ -36,4 +36,4 @@ def Pgen():
     YN()
 
 
-Pgen()
+Main()
