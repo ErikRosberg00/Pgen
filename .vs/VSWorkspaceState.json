@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Python",
+    "\\Python Labbar",
+    "\\Python\\Classes"
   ],
-  "SelectedNode": "\\Pman.sln",
+  "SelectedNode": "\\Python\\Classes\\Pgen.py",
   "PreviewInSolutionExplorer": false
 }
