@@ -5,8 +5,8 @@ import string
 class Pgen(object):
     """description of class"""
 
-def Main():
-    def RndPwd():
+def main():
+    def rndpwd():
         while True:
             Length = input("Hur många karaktärer ska ditt lösenord ha ")
             try:
@@ -19,11 +19,11 @@ def Main():
 
         return ''.join(random.choice(Letters) for i in range(Length))
     print("Ditt lösenord är ")
-    print(RndPwd())
+    print(rndpwd())
     print()
     print("Vill du generera ett nytt lösen ord  ")
 
-    def YN():
+    def yn():
         print("Y / N")
         Redo = input()
         if Redo == "n" or "N":
@@ -32,8 +32,9 @@ def Main():
         elif Redo == "y" or "Y":
             Pgen()
         else:
-            YN()
-    YN()
+            yn()
+    yn()
 
 
-Main()
+if __name__ == '__main__':
+	main()
