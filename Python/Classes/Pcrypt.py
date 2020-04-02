@@ -1,7 +1,7 @@
 class Pcrypt(object):
     """description of class"""
     def main():
-	password = 1234
+	password = "1234"
 	f = open("test/pwd.txt","w+") #Kan fixa så att pwd är en variabel dvs att du kan få ändra namnet (a = lägga till w = skriva om) mapp/fil.txt gör så användaren kan välja
 
 	for i in range(10):
